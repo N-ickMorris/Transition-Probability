@@ -10,7 +10,7 @@ from sympy import MatrixSymbol, Matrix
 a = sp.Symbol('a')
 b = sp.Symbol('b')
 k = sp.Symbol('k')
-P = Matrix(MatrixSymbol('p', 2, 2))
+P = Matrix(MatrixSymbol('P', 2, 2))
 
 # update P
 P[0,0] = 1 - a
